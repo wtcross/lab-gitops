@@ -1,0 +1,7 @@
+apiVersion: argoproj.io/v1beta1
+kind: ArgoCD
+metadata:
+  name: openshift-gitops
+spec:
+  server:
+    host: 'openshift-gitops-server-openshift-gitops.apps.na-sno.lab.cross.solutions'
