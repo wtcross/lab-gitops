@@ -8,6 +8,7 @@ resources:
   - 01-config-machineconfigs.yml
   - 02-ingress-node-firewall.yml
   - 02-node-feature-discovery.yml
+  - 02-operator-nmstate.yml
   - 05-operator-openshift-virt.yml
   - 05-operator-lvm.yml
   - 07-instance-lvmcluster.yml
