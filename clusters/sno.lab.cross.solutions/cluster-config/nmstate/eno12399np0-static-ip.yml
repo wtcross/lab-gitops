@@ -1,0 +1,17 @@
+apiVersion: nmstate.io/v1
+kind: NodeNetworkConfigurationPolicy
+metadata:
+  name: eno12399np0-static-ip 
+spec:
+  desiredState:
+    interfaces:
+    - name: eno12399np0
+      description: Configuring eno12399np0 on node01
+      type: ethernet
+      state: up
+      ipv4:
+        dhcp: false
+        enabled: true
+        address:
+          - ip: 192.168.11.6
+            prefixLength: 32
