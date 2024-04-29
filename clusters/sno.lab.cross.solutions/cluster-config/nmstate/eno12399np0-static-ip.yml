@@ -6,7 +6,7 @@ spec:
   desiredState:
     interfaces:
     - name: eno12399np0
-      description: Configuring eno12399np0 on node01
+      description: Configuring eno12399np0 with a static IP for direct peer with TrueNAS
       type: ethernet
       state: up
       ipv4:
